@@ -1,0 +1,46 @@
+/* CTRL K CTRL C to comment in VS code */
+/* CTRL K CTRL U to uncomment */
+/* CASCADING means the Most bottom definition applies. */
+/* Inline styling will overwrite stylesheets */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: white;
+}
+body {
+    background-color: #bbb;
+    color: black;
+}
+section {
+    padding: 0 25px;
+}
+h1 {
+    font-size: 50px;
+}
+/* "*" is a unversal selector  */
+/* * {  */
+.container {
+
+    text-align: center;
+    
+    }
+
+footer {
+    background-color: #bbb;
+    color: black;
+    Background: #DEDEDE;
+    font-family: arial;
+    font-size: 12px;
+    /* TOP RIGHT BOTTOM LEFT */
+    margin: 10px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    height: 50px;
+    /* width: 900px; */
+}
+
+ul li {
+    display:inline;
+  }
